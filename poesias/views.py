@@ -14,3 +14,6 @@ def contato_view(request):
 def user_view(request, username):
     return HttpResponse (f'nome do usuario: {username}')
 
+def blog_view(request):
+    return render(request, 'blog.html')
+
