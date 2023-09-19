@@ -1,9 +1,11 @@
 {% load static %}
+{% include "base_templates/header.html" %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static '/styles.css' %}" ></link>
     <title>Document</title>
 </head>
 <body>
@@ -11,9 +13,8 @@
 
     <p>Olá Mundo este é o blog da aula de back end</p>
 
-    <img src="{% static '/img/download.jpeg' %}">
-    <img src="{% static '/img/images.jpeg' %}">
     <img src="{% static '/img/images (1).jpeg' %}">
     <img src="{% static '/img/download (1).jpeg' %}">
 </body>
+{% include "base_templates/footer.html" %}
 </html>
