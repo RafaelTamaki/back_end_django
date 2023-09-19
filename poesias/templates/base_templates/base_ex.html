@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block header %} Título Padrão {% endblock %} </title>
+</head>
+<body>
+    <header> {% block header %} Cabeçalho Padrão {% endblock %} </header>
+    <main>{% block content %}{% endblock %}</main>    
+    <footer>{% block footer %} Rodapé Padrão {% endblock %}</footer>
+</body>
+</html>

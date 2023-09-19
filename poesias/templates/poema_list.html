@@ -1,0 +1,9 @@
+<!-- poetry_app/templates/poetry_list.html-->
+
+{% for poetry in poesias %}
+    <h2>{{ poetry.title }}</h2>
+    <img src="{{ poetry.cover.url }}" alt="{{ poetry.title }}">
+    <p>{{ poetry.full_text }}</p>
+    <p>Written by: {{ poetry.author.first_name }} {{ poetry.author.last_name }}</p>
+    <p>Genre: {{ poetry.genre.name }}</p>
+{% endfor %}
