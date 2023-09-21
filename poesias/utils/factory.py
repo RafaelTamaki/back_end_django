@@ -9,7 +9,7 @@ def rand_ratio():
 fake = Faker('pt_BR')
 
 
-def fazer_poema():
+def make_poetry():
     return {
         # Títulos de poesias geralmente são curtos
         'title': fake.sentence(nb_words=5),
