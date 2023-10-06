@@ -33,4 +33,4 @@ def make_poetry():
 
 if __name__ == '__main__':
     from pprint import pprint
-    pprint(fazer_poema())
+    pprint(make_poetry())
